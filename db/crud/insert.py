@@ -7,4 +7,4 @@ def inserir(cnx,cursor,tabela,coluna,valores):
     print(f'{cursor.rowcount}, Linhas inseridas')
     print(cursor.fetchall())#fetchal trás tudo
   else:
-    print("Tabela esta vazia!")
+    print("Tabela esta vazia!")##tabela não está vazia, usar o try except igual as outras

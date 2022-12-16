@@ -66,9 +66,9 @@ def access(dbuser, dbpass):
             create_log.logFile(f'Erro ao chamar funcao da crud.\n{error}')
             print('Erro ao chamar funcao da crud.')
 
-
+ 
   #Update tabela por tabela escolhida
-
+ 
   except Exception as error:
     create_log.logFile('Erro de conexao.')
     print('\nFalha na conexao com o banco.\n')
