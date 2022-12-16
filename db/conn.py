@@ -1,5 +1,5 @@
 from config import create_log
-from .crud import select, delete
+from .crud import select, delete, insert
 import tkinter as tk
 from tkinter import *
 #Ttk treeview não vem com Tkinter padrão
@@ -54,7 +54,18 @@ def access(dbuser, dbpass):
       create_log.logFile(f'Erro ao chamar funcao da crud.\n{error}')
       print('Erro ao chamar funcao da crud.')
   #Insert tabela por tabela escolhida
-    
+    #insert
+      try:
+          print('Insira dados')
+          print('tecle enter para pular')
+          tabela = str(input('Digite tabela: '))
+          coluna = str(input('Digite coluna: '))
+          valores = str(input('Digite um dado a ser inserido: '))
+          insert.inserir(cnx,cursor,tabela,coluna,valores)
+      except Exception as error:
+            create_log.logFile(f'Erro ao chamar funcao da crud.\n{error}')
+            print('Erro ao chamar funcao da crud.')
+
 
   #Update tabela por tabela escolhida
 
