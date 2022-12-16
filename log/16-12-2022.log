@@ -132,3 +132,15 @@ cannot access local variable 'tabela' where it is not associated with a value
 16-12-2022 09:09:59 -> Banco selecionado!
 16-12-2022 09:10:30 -> `def selecionar` resultado:
 [(25, 'Brasil', 25)]
+16-12-2022 10:04:27 -> Conectando...
+16-12-2022 10:04:27 -> Verificando conexao com o banco...
+16-12-2022 10:04:27 -> Banco selecionado!
+16-12-2022 10:05:06 -> Este campo nao existe.
+16-12-2022 10:06:39 -> Erro ao chamar funcao da crud.
+1292 (22007): Truncated incorrect DOUBLE value: 'Holanda'
+16-12-2022 10:07:35 -> Conectando...
+16-12-2022 10:07:35 -> Verificando conexao com o banco...
+16-12-2022 10:07:35 -> Banco selecionado!
+16-12-2022 10:07:40 -> Este campo nao existe.
+16-12-2022 10:07:59 -> Erro ao chamar funcao da crud.
+1292 (22007): Truncated incorrect DOUBLE value: 'Holanda'
