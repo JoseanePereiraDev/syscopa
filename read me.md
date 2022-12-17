@@ -1,12 +1,16 @@
 
 ##Anotações de Suporte
 
-###caso tenha problemas com o mysql.connector
-##1º instale o pacote wheel na venv e no linux (se usar)
-##pip install wheel
-##sudo apt install python3-wheel
+##Lembrar de importar o banco na pasta db/import_to_db/banco_syscopa
 
-##caso apareça a mensagem
-"mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported"
-##instale
+##Comando para chamar o banco:
 pip install mysql-connector-python
+
+##Comando Criar Venv:
+python -m venv venv
+.\venv\Scripts\activate.bat
+
+##Comando para executar aplicação:
+python app.py
+
+##Após seguir os comandos do Prompt 

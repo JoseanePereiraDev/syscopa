@@ -5,4 +5,4 @@ def deletar(cnx,cursor,tabela,coluna,condicao):
     cnx.commit()
     print(f'{cursor.rowcount}, Linhas deletadas')#fetchal trás tudo
   else:
-    print("Para deletar é necessario uma condição")
+    print("Para deletar é necessario uma condição\n")
